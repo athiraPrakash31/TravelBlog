@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Beth+Ellen&family=Black+Ops+One&family=Hedvig+Letters+Serif:opsz@12..24&family=Josefin+Sans:ital,wght@1,300&family=Kalnia:wght@300;400&family=Merriweather:ital,wght@0,400;1,300&family=Montserrat:ital,wght@0,300;1,200&family=Noto+Sans&family=Noto+Serif:wght@300&family=Oswald:wght@300&family=PT+Serif:ital@1&family=Playfair+Display&family=Roboto+Condensed:wght@300;400&family=Shadows+Into+Light&display=swap" rel="stylesheet">  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- favicon -->
+  <link rel="icon" href="https://travelfreak.com/wp-content/uploads/2015/09/favicon-512x512-300x300.jpg" sizes="32x32">
+  <!-- external css -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img width="200" height="50"
+          src="https://travelfreak.com/wp-content/uploads/2018/11/travelfreak-logo-400x100-300x75.jpg" alt=""></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <div class="collapse navbar-collapse   " id="navbarScroll">
+        <ul class=" navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active " id="text" aria-current="page" href="">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="text" aria-current="page" href="">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false" id="text"
+              aria-current="page" href="">TRAVEL GEAR</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a id="text" class="dropdown-item" href="#">Best Travel Gifts</a></li>
+              <li><a id="text" class="dropdown-item" href="#">Best Luggage Brands</a></li>
+              <li><a id="text" class="dropdown-item" href="#">Best Travel Backpacks</a></li>
+            </ul>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="text"
+              aria-current="page" href="">TRAVEL TIPS</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a id="text" class="dropdown-item" href="#">Travel Booking Websites</a></li>
+              <li><a id="text" class="dropdown-item" href="#">Best Travel Insurance Companes</a></li>
+              <li><a id="text" class="dropdown-item" href="#">Car Camping</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="text" aria-current="page" href="">INSPIRATON</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="text"
+              aria-current="page" href="">DESTINATONS</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a id="text" class="dropdown-item" href="#">Australia</a></li>
+              <li><a id="text" class="dropdown-item" href="#">Europe</a></li>
+              <li><a id="text" class="dropdown-item" href="#">The Middle East</a></li>
+              <li><a id="text" class="dropdown-item" href="#">New Zealand</a></li>
+              <li><a id="text" class="dropdown-item" href="#">North America</a></li>
+              <li><a id="text" class="dropdown-item" href="#">South America</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <!-- content  -->
+  <div class="photo">
+    <div class="card1">
+      <div class="pic1">
+       <a href="https://travelfreak.com/best-checked-luggage/"> <img src="https://travelfreak.com/wp-content/uploads/2023/05/monos-luggage-review-800x534.jpg"
+          class="card-img-top" alt="..."></a>
+      </div>
+      <div class="photo1">
+        <div class="image1">
+          <a href="https://travelfreak.com/monos-luggage-review/"><img src="https://travelfreak.com/wp-content/uploads/2022/03/best-luggage-brands-800x531.jpg"
+            class="card-img-top" alt="..."></a>
+        </div>
+        <div class="image2">
+          <a href="https://travelfreak.com/travel-tips/"><img src="https://travelfreak.com/wp-content/uploads/2021/12/best-hotel-booking-websites-1-800x534.jpg"
+            class="card-img-top" alt="..."></a>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="photo2">
+        <div class="image3" >
+          <a href="https://travelfreak.com/best-carry-on-backpack/"><img src="https://travelfreak.com/wp-content/uploads/2019/05/best-carry-on-backpacks-2-800x534.webp"
+            class="card-img-top" alt="..."></a>
+            <!-- <div class="imageText">
+              Hello prakash
+            </div> -->
+        </div>
+        <div class="image4">
+          <a href="https://travelfreak.com/best-lightweight-luggage/"><img src="https://travelfreak.com/wp-content/uploads/2022/05/best-lightweight-luggage-800x500.jpg"
+            class="card-img-top" alt="..."></a>
+        </div>
+      </div>
+      <div class="pic2">
+       <a href="https://travelfreak.com/best-luggage-brands/"> <img src="https://travelfreak.com/wp-content/uploads/2022/08/best-carry-on-luggage-800x534.jpg
+        "
+          class="card-img-top" alt="..."></a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <img class="img-fluid" src="https://travelfreak.com/wp-content/uploads/2021/05/featured-new-800x100.jpg"
+      height="100" width="800"
+      data-lazy-srcset="https://travelfreak.com/wp-content/uploads/2021/05/featured-new-800x100.jpg 800w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-1200x150.jpg 1200w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-300x38.jpg 300w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-770x96.jpg 770w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-1536x192.jpg 1536w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new.jpg 1600w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-300x38@2x.jpg 600w"
+      data-lazy-sizes="(max-width: 800px) 100vw, 800px"
+      class="attachment-medium size-medium wp-image-47267 sp-no-webp entered lazyloaded" alt="" decoding="async"
+      data-lazy-src="https://travelfreak.com/wp-content/uploads/2021/05/featured-new-800x100.jpg"
+      data-ll-status="loaded" sizes="(max-width: 800px) 100vw, 800px"
+      srcset="https://travelfreak.com/wp-content/uploads/2021/05/featured-new-800x100.jpg 800w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-1200x150.jpg 1200w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-300x38.jpg 300w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-770x96.jpg 770w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-1536x192.jpg 1536w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new.jpg 1600w, https://travelfreak.com/wp-content/uploads/2021/05/featured-new-300x38@2x.jpg 600w">
+
+  </div>
+
+
+   
+   
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+      <path class="elementor-shape-fill" opacity="0.33"
+        d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z">
+      </path>
+      <path class="elementor-shape-fill" opacity="0.66"
+        d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z">
+      </path>
+      <path class="elementor-shape-fill"
+        d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z">
+      </path>
+    </svg> -->
+   
+  </div>
+
+    <div class="travel-image">
+    <div class="heading1">
+      <h2 class="text-center ">Adventure</h2>
+      <h3>LIIKE A PRO</h3>
+      <p class="text-center">Travel smarter, adventure better. Join our community of travelers and get our gear guides, travel tips and personal recommendations, entirely free.</p>
+        <button class="btn btn-warning" type="button">SUBSCRIBE TODAY<i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  <div class="textHeading text-center">
+    <h2>Start Your Adventure</h2>
+  </div>
+     <div class="row ">
+      <div class="col">
+        <img  src="https://travelfreak.com/wp-content/uploads/2021/09/campervan-rental-companies-770x513.webp" alt="" style="width: 100%; border-radius:10px">
+        <div id="para">15 Best Campervan Rental Companies for Your US Road Trip</div>
+      </div>
+      <div class="col">
+        <img width="200"src="https://travelfreak.com/wp-content/uploads/2019/10/best-travel-backpacks-770x513.webp" alt=""  style="width: 100%;border-radius:10px">
+        <p id="para">15 Best Travel Backpacks of 2023</p>
+
+      </div>
+      <div class="col">
+        <img width="200" src="https://travelfreak.com/wp-content/uploads/2019/05/travel-insurance-companies-770x513.webp" alt=""  style="width: 100%;border-radius:10px">
+        <p id="para">15 Best Travel Insurance Companiies of 2023</p>
+
+      </div>
+     </div>
+     <div class="row ">
+      <div class="col">
+        <img  src="https://travelfreak.com/wp-content/uploads/2020/03/travel-booking-websites-770x513.webp" alt="" style="width: 100%; border-radius:10px">
+        <div id="para">17 Best Travel Sites to Use in 2023</div>
+      </div>
+      <div class="col">
+        <img width="200"src="https://travelfreak.com/wp-content/uploads/2019/10/best-travel-backpacks-770x513.webp" alt=""  style="width: 100%;border-radius:10px">
+        <p id="para">65 Best Travel Tips 've Learned After 10 Years of Traveling</p>
+
+      </div>
+      <div class="col">
+        <img width="200" src="https://travelfreak.com/wp-content/uploads/2020/03/travel-gear-770x513.webp" alt=""  style="width: 100%;border-radius:10px">
+        <p id="para">The Best Travel Gear and Accessories of 2023</p>
+
+      </div>
+     </div>
+    
+      
+  
+   <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <section class="">
+    <div class="container text-center text-light text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4 ">
+          <!-- Content -->
+         <h6 class="text-uppercase fw-bold ">
+            CATEGORIES
+          </h6><br>
+          <p>
+            <a href="#!" class="text-reset">Backpack Reviews</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Luggage Reviews</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Gear Guides</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Destinations</a>
+          </p>
+           <p>
+            <a href="#!" class="text-reset">RVs & Campervans</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Travel Insurance</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Working Abroad</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Travel Guides</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            ABOUT
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Advertise</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Press</a>
+          </p>
+             <p>
+            <a href="#!" class="text-reset">Privacy Policy</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            CONNECT WITH US
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Instagram</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Facebook</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Twitter</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pinterest</a>
+          </p>
+           <p>
+            <a href="#!" class="text-reset">Email Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">LinkedIn</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Crunchbase</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">AngelList</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-envelope me-3"></i> info@example.com
+          </p>
+          <p><i class="fab fa-facebook-f"></i> Facebook</p>
+          <p><i class="fab fa-instagram"></i> Instagram</p>
+          <p><i class="fab fa-twitter"></i> Twitter</p>
+          <p><i class="fab fa-google"></i> Google</p>
+          <p><i class="fab fa-linkedin"></i> LinkedIn</p>
+           </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center text-light p-4" style="background-color: rgba(247, 245, 245, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold " href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    
+
+
+
+
+
+</body>
+
+</html>
